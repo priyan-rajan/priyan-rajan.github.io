@@ -200,7 +200,19 @@
             <!-- Pondering Section -->
             <section class="space-y-4 max-w-5xl">
                 <div class="section-label text-accent">Currently pondering</div>
-                <div id="render-focus-points" class="flex flex-col gap-6"></div>
+                <div class="border-l-2 border-accent pl-6 space-y-4">
+                    <h2 id="render-focus-title"
+                        class="text-2xl md:text-3xl font-bold leading-tight italic text-slate-900 dark:text-white"></h2>
+                    <p id="render-focus-desc"
+                        class="serif-body text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
+                    </p>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="space-y-4 max-w-5xl">
+                <div class="section-label text-accent">Projects</div>
+                <div id="render-projects" class="flex flex-col gap-6"></div>
             </section>
 
             <!-- Path (Experience & Education) Section -->
@@ -247,9 +259,13 @@
             }
         });
 
-        // Render Focus Points
-        const focusPoints = document.getElementById('render-focus-points');
-        DATA.focus.points.forEach(point => {
+        // Render Focus Question
+        document.getElementById('render-focus-title').textContent = DATA.focus.title;
+        document.getElementById('render-focus-desc').textContent = DATA.focus.description;
+
+        // Render Projects
+        const projectList = document.getElementById('render-projects');
+        DATA.projects.forEach(point => {
             const card = document.createElement('a');
             card.href = point.url;
             card.target = '_blank';
@@ -260,7 +276,7 @@
                 <h3 class="font-bold text-xl md:text-2xl text-slate-900 dark:text-white">${point.title}</h3>
                 <p class="serif-body text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed font-normal">${point.desc}</p>
             `;
-            focusPoints.appendChild(card);
+            projectList.appendChild(card);
         });
         document.getElementById('render-photo').src = DATA.photo;
 

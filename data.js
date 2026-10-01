@@ -9,7 +9,10 @@ const DATA = {
         "Bioinformatics"
     ],
     focus: {
-        points: [
+        title: "How can we catch the molecular signs of cancer early, and what can we do with that data?",
+        description: "This includes identifying the patient population to be screened, developing robust computational pipelines to identify the root causes, and using that information to design personalized treatment with novel approaches or existing drugs."
+    },
+    projects: [
             {
                 title: "Early disease detection",
                 desc: "Tracing the cellular and tissue origins of plasma protein biomarkers for early cancer detection by applying machine-learning techniques to large single-cell RNA-seq and spatial omics datasets.",
@@ -35,8 +38,7 @@ const DATA = {
                 desc: "Uncovering BRCA mutation frequency in various sub-populations in India using the GenomeIndia dataset.",
                 url: "https://github.com/priyan-rajan/BRCA-stats-in-GenomeIndia"
             }
-        ]
-    },
+    ],
     experience: [
         { org: "Independent Researcher", role: "Data workflows for early detection, immunotherapy and rare disease", period: "2025 — present" },
         { org: "Enhanced Pharmacodynamics, Buffalo", role: "Senior research aide || Drug PK/PD modeling", period: "2019" }
