@@ -42,13 +42,7 @@ const DATA = {
         { org: "Enhanced Pharmacodynamics, LLC", role: "Senior research aide || Drug PK/PD modeling", period: "2019" }
     ],
     education: [
-        { org: "SUNY Buffalo — Roswell Park Cancer Center", role: "M.S. & Ph.D in Cancer Sciences ||",
-          bullets: [
-              "Deciphering how tumor alters immune response proximally and at a distance",
-              "Developing an anti-PD-1 + small molecule combination therapy to enhance immune response against the tumor",
-              "Determining p53 response to destabilizing chromatin structure",
-              "Developing chromatin damaging small molecule therapy for fibrosarcoma"
-          ], period: "2017 — 2025" },
+        { org: "SUNY Buffalo — Roswell Park Cancer Center", role: "M.S. & Ph.D in Cancer Sciences || Breast cancer immunotherapy & targeted therapy, <br/> p53 response to chromatin damage", period: "2017 — 2025" },
         /*{ org: "University at Buffalo - Roswell Park Cancer Center", role: "Masters student || p53 & tumor chromatin damage", period: "2017 — 2019" },*/
         { org: "PSG College of Technology, Coimbatore", role: "B.Tech Biotechnology || Regulatory mechanisms in cell division", period: "2013 — 2017" }
     ],
