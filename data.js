@@ -44,7 +44,7 @@ const DATA = {
     education: [
         { org: "SUNY Buffalo — Roswell Park Cancer Center", role: "M.S. & Ph.D in Cancer Sciences || Breast cancer immunotherapy & targeted therapy, <br/> p53 response to chromatin damage", period: "2017 — 2025" },
         /*{ org: "University at Buffalo - Roswell Park Cancer Center", role: "Masters student || p53 & tumor chromatin damage", period: "2017 — 2019" },*/
-        { org: "PSG College of Technology, Coimbatore", role: "B.Tech Biotechnology || Regulatory mechanisms in cell division", period: "2013 — 2017" }
+        { org: "PSG College of Technology, Coimbatore", role: "B.Tech Biotechnology || Regulatory mechanisms of cell division", period: "2013 — 2017" }
     ],
     resources: [
         {
