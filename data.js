@@ -38,7 +38,7 @@ const DATA = {
         ]
     },
     experience: [
-        { org: "Independent Researcher", role: "Collaborator || ML based biomarker workflows", period: "2025 — present" },
+        { org: "Independent Researcher", role: "Collaborator || ML & data workflows for early detection, immunotherapy and rare disease", period: "2025 — present" },
         { org: "Enhanced Pharmacodynamics, LLC", role: "Senior research aide || Drug PK/PD modeling", period: "2019" }
     ],
     education: [
