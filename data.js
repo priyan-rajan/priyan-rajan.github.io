@@ -9,8 +9,11 @@ const DATA = {
         "Bioinformatics"
     ],
     focus: {
-        title: "What are the physical, chemical and biological forces that drive metastatic cancer?",
-        description: "I am interested in dissecting the tumor microenvironmental factors and DNA damage responses that affect cancer progression using in vitro/in vivo models and computational tools, and now, increasingly, AI based workflows that help accelerate progress in these fields."
+        points: [
+            "Early disease detection",
+            "Predictive biomarkers to cancer immunotherapy",
+            "Rare disease variant discovery & drug repurposing"
+        ]
     },
     experience: [
         { org: "Icahn School of Medicine at Mount Sinai", role: "Research Associate || ML based biomarker  workflows", period: "2025 — present" },
