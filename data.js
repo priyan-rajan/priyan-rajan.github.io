@@ -38,7 +38,7 @@ const DATA = {
         ]
     },
     experience: [
-        { org: "Icahn School of Medicine at Mount Sinai", role: "Research Associate || ML based biomarker  workflows", period: "2025 — present" },
+        { org: "Independent Researcher", role: "Collaborator || ML based biomarker workflows", period: "2025 — present" },
         { org: "Enhanced Pharmacodynamics, LLC", role: "Senior research aide || Drug PK/PD modeling", period: "2019" }
     ],
     education: [
