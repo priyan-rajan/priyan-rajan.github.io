@@ -213,6 +213,9 @@
             <section class="space-y-4 max-w-5xl">
                 <div class="section-label text-accent">Projects</div>
                 <div id="render-projects" class="flex flex-col gap-6"></div>
+                <a id="link-more-projects" href="#" target="_blank" rel="noopener"
+                    class="inline-block pt-2 text-xs font-bold uppercase tracking-[0.2em] text-accent hover:text-black dark:hover:text-white hover:underline decoration-accent underline-offset-4 transition-all">More
+                    on GitHub &rarr;</a>
             </section>
 
             <!-- Path (Experience & Education) Section -->
@@ -265,7 +268,7 @@
 
         // Render Projects
         const projectList = document.getElementById('render-projects');
-        DATA.projects.forEach(point => {
+        DATA.projects.filter(point => point.featured).forEach(point => {
             const card = document.createElement('a');
             card.href = point.url;
             card.target = '_blank';
@@ -319,6 +322,7 @@
 
         // Set social links
         document.getElementById('link-github').href = DATA.socials.github;
+        document.getElementById('link-more-projects').href = DATA.socials.githubProfile;
         document.getElementById('link-linkedin').href = DATA.socials.LinkedIn;
         document.getElementById('link-scholar').href = DATA.socials.scholar;
         document.getElementById('link-substack').href = DATA.socials.substack;

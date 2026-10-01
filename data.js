@@ -15,11 +15,13 @@ const DATA = {
     projects: [
             {
                 title: "Early disease detection",
+                featured: true,
                 desc: "Tracing the cellular and tissue origins of plasma protein biomarkers for early cancer detection by applying machine-learning techniques to large single-cell RNA-seq and spatial omics datasets.",
                 url: "https://github.com/priyan-rajan/biomarker-tracing"
             },
             {
                 title: "Predictive biomarkers to cancer immunotherapy",
+                featured: true,
                 desc: "Establishing a molecular and proteomic tumor immune-suppression signature that indicates responsiveness to immunotherapy and pre-metastatic tissue priming for metastatic tumor growth.",
                 url: "https://github.com/priyan-rajan/Tumor_Immune_Signaling"
             },
@@ -35,6 +37,7 @@ const DATA = {
             },
             {
                 title: "Understanding frequency of cancer causing mutations in India",
+                featured: true,
                 desc: "Uncovering BRCA mutation frequency in various sub-populations in India using the GenomeIndia dataset.",
                 url: "https://github.com/priyan-rajan/BRCA-stats-in-GenomeIndia"
             }
@@ -71,6 +74,7 @@ const DATA = {
     socials: {
         substack: "https://centraldogmatix.substack.com",
         github: "https://github.com",
+        githubProfile: "https://github.com/priyan-rajan?tab=repositories",
         LinkedIn: "https://linkedin.com/in/priyanka-rajan",
         email: "mailto:priyanka.rajan05@gmail.com",
         resume: "PRajan_resume.pdf",
