@@ -10,9 +10,21 @@ const DATA = {
     ],
     focus: {
         points: [
-            "Early disease detection",
-            "Predictive biomarkers to cancer immunotherapy",
-            "Rare disease variant discovery & drug repurposing"
+            {
+                title: "Early disease detection",
+                desc: "Tracing the cellular and tissue origins of plasma protein biomarkers for early cancer detection by applying machine-learning techniques to large single-cell RNA-seq and spatial omics datasets.",
+                url: "https://github.com/priyan-rajan?tab=repositories"
+            },
+            {
+                title: "Predictive biomarkers to cancer immunotherapy",
+                desc: "Establishing a tumor immune-suppression signature that indicates responsiveness to immunotherapy and pre-metastatic tissue priming.",
+                url: "https://github.com/priyan-rajan?tab=repositories"
+            },
+            {
+                title: "Rare disease variant discovery & drug repurposing",
+                desc: "Identifying DNA mutations underlying Mosaic Variegated Aneuploidy syndrome, the consequential effects and proposing candidate medications from existing approved medications.",
+                url: "https://github.com/priyan-rajan?tab=repositories"
+            }
         ]
     },
     experience: [

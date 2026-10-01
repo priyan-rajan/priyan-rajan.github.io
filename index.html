@@ -200,11 +200,7 @@
             <!-- Pondering Section -->
             <section class="space-y-4 max-w-5xl">
                 <div class="section-label text-accent">Currently pondering</div>
-                <div class="border-l-2 border-accent pl-6">
-                    <ul id="render-focus-points"
-                        class="serif-body flex flex-col md:flex-row md:flex-wrap gap-x-10 gap-y-3 text-xl md:text-2xl text-slate-600 dark:text-slate-300 leading-relaxed font-normal list-disc list-inside">
-                    </ul>
-                </div>
+                <div id="render-focus-points" class="flex flex-col gap-6"></div>
             </section>
 
             <!-- Path (Experience & Education) Section -->
@@ -254,9 +250,17 @@
         // Render Focus Points
         const focusPoints = document.getElementById('render-focus-points');
         DATA.focus.points.forEach(point => {
-            const item = document.createElement('li');
-            item.textContent = point;
-            focusPoints.appendChild(item);
+            const card = document.createElement('a');
+            card.href = point.url;
+            card.target = '_blank';
+            card.rel = 'noopener';
+            card.className = "block p-6 border border-slate-200 dark:border-slate-700 border-t-2 rounded-lg space-y-2 transition hover:-translate-y-1 hover:shadow-lg";
+            card.style.borderTopColor = 'var(--accent)';
+            card.innerHTML = `
+                <h3 class="font-bold text-xl text-slate-900 dark:text-white">${point.title}</h3>
+                <p class="text-slate-500 dark:text-slate-400 text-base font-light italic">${point.desc}</p>
+            `;
+            focusPoints.appendChild(card);
         });
         document.getElementById('render-photo').src = DATA.photo;
 
