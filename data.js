@@ -17,7 +17,7 @@ const DATA = {
             },
             {
                 title: "Predictive biomarkers to cancer immunotherapy",
-                desc: "Establishing a tumor immune-suppression signature that indicates responsiveness to immunotherapy and pre-metastatic tissue priming.",
+                desc: "Establishing a molecular and proteomic tumor immune-suppression signature that indicates responsiveness to immunotherapy and pre-metastatic tissue priming for metastatic tumor growth.",
                 url: "https://github.com/priyan-rajan?tab=repositories"
             },
             {
