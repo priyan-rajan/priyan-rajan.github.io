@@ -13,12 +13,12 @@ const DATA = {
             {
                 title: "Early disease detection",
                 desc: "Tracing the cellular and tissue origins of plasma protein biomarkers for early cancer detection by applying machine-learning techniques to large single-cell RNA-seq and spatial omics datasets.",
-                url: "https://github.com/priyan-rajan?tab=repositories"
+                url: "https://github.com/priyan-rajan/biomarker-tracing"
             },
             {
                 title: "Predictive biomarkers to cancer immunotherapy",
                 desc: "Establishing a molecular and proteomic tumor immune-suppression signature that indicates responsiveness to immunotherapy and pre-metastatic tissue priming for metastatic tumor growth.",
-                url: "https://github.com/priyan-rajan?tab=repositories"
+                url: "https://github.com/priyan-rajan/Tumor_Immune_Signaling"
             },
             {
                 title: "Rare disease variant discovery & drug repurposing",
@@ -28,12 +28,12 @@ const DATA = {
             {
                 title: "Contraindications of common medicines",
                 desc: "Developing an app that leverages established drug-drug interaction data to tell you if the medicines you are taking go well with each other or not.",
-                url: "https://github.com/priyan-rajan?tab=repositories"
+                url: "https://github.com/priyan-rajan/Medindicator"
             },
             {
                 title: "Understanding frequency of cancer causing mutations in India",
                 desc: "Uncovering BRCA mutation frequency in various sub-populations in India using the GenomeIndia dataset.",
-                url: "https://github.com/priyan-rajan?tab=repositories"
+                url: "https://github.com/priyan-rajan/BRCA-stats-in-GenomeIndia"
             }
         ]
     },
