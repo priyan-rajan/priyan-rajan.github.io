@@ -24,6 +24,16 @@ const DATA = {
                 title: "Rare disease variant discovery & drug repurposing",
                 desc: "Identifying DNA mutations underlying Mosaic Variegated Aneuploidy syndrome, the consequential effects and proposing candidate medications from existing approved medications.",
                 url: "https://github.com/priyan-rajan?tab=repositories"
+            },
+            {
+                title: "Contraindications of common medicines",
+                desc: "Developing an app that leverages established drug-drug interaction data to tell you if the medicines you are taking go well with each other or not.",
+                url: "https://github.com/priyan-rajan?tab=repositories"
+            },
+            {
+                title: "Understanding frequency of cancer causing mutations in India",
+                desc: "Uncovering BRCA mutation frequency in various sub-populations in India using the GenomeIndia dataset.",
+                url: "https://github.com/priyan-rajan?tab=repositories"
             }
         ]
     },
