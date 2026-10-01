@@ -38,8 +38,8 @@ const DATA = {
         ]
     },
     experience: [
-        { org: "Independent Researcher", role: "Collaborator || Data workflows for early detection, immunotherapy and rare disease", period: "2025 — present" },
-        { org: "Enhanced Pharmacodynamics, LLC", role: "Senior research aide || Drug PK/PD modeling", period: "2019" }
+        { org: "Independent Researcher", role: "Data workflows for early detection, immunotherapy and rare disease", period: "2025 — present" },
+        { org: "Enhanced Pharmacodynamics, Buffalo", role: "Senior research aide || Drug PK/PD modeling", period: "2019" }
     ],
     education: [
         { org: "SUNY Buffalo — Roswell Park Cancer Center", role: "M.S. & Ph.D in Cancer Sciences || Breast cancer immunotherapy & targeted therapy, <br/> p53 response to chromatin damage", period: "2017 — 2025" },
