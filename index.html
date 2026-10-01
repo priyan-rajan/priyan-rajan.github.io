@@ -280,6 +280,9 @@
                 } else {
                     roleHtml = item.role;
                 }
+                if (item.bullets) {
+                    roleHtml += `<ul class="list-disc list-outside pl-5 mt-1 space-y-1 not-italic">${item.bullets.map(b => `<li>${b}</li>`).join('')}</ul>`;
+                }
 
                 let extraSpace = '';
                 if (item.org.includes('PSG College')) {
@@ -289,7 +292,7 @@
                 div.innerHTML = `
                     <div class="text-xs font-bold text-accent uppercase tracking-widest">${item.period}</div>
                     <h4 class="font-bold text-xl text-slate-900 dark:text-white">${item.org}</h4>
-                    <p class="text-slate-500 dark:text-slate-400 text-base font-light italic">${roleHtml}</p>
+                    <div class="text-slate-500 dark:text-slate-400 text-base font-light italic">${roleHtml}</div>
                     ${extraSpace}
                 `;
                 container.appendChild(div);
