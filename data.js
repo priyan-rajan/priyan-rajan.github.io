@@ -18,6 +18,7 @@ const DATA = {
             question: "What do the Indian genome and phenome tell us about cancer prevalence and disease behavior, and how do we leverage this data for tailored treatment and prevention strategies?"
         },
         {
+            context: "Discovery is getting faster and cheaper, but the systems that fund, price and deliver therapies haven't kept pace.",
             question: "What are the business models that enable breakthrough therapeutic discoveries to be deployed at population scale, and what needs to change with AI?"
         }
     ],
