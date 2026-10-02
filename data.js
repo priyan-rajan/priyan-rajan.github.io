@@ -8,10 +8,19 @@ const DATA = {
         "Cancer Biology",
         "Bioinformatics"
     ],
-    focus: {
-        title: "How can we catch the molecular signs of cancer early, and what can we do with that data?",
-        description: "This includes identifying the patient population to be screened, developing robust computational pipelines to identify the root causes, and using that information to design personalized treatment with novel approaches or existing drugs."
-    },
+    focus: [
+        {
+            context: "Cancer cells rewire the microenvironment locally and at a distance well before the cancer spreads.",
+            question: "How do we catch the signs early and intervene early? What can the profile of the tumor microenvironment tell us about patient response?"
+        },
+        {
+            context: "The Indian population has subgroups with a high frequency of cancer-predisposing mutations, rather than the risk being widespread.",
+            question: "What do the Indian genome and phenome tell us about cancer prevalence and disease behavior, and how do we leverage this data for tailored treatment and prevention strategies?"
+        },
+        {
+            question: "What are the business models that enable breakthrough therapeutic discoveries to be deployed at population scale, and what needs to change with AI?"
+        }
+    ],
     projects: [
             {
                 title: "Early disease detection",
