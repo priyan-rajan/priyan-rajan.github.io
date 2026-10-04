@@ -173,6 +173,8 @@
                         class="text-xl md:text-2xl text-slate-500 dark:text-slate-400 font-light italic mb-6"></p>
                     <div
                         class="flex flex-wrap gap-x-8 gap-y-2 text-xs font-bold uppercase tracking-[0.2em] items-center">
+                        <a href="projects.html"
+                            class="text-accent hover:text-black dark:hover:text-white hover:underline decoration-accent underline-offset-4 transition-all">Projects</a>
                         <a id="link-substack" href="#"
                             class="text-accent hover:text-black dark:hover:text-white hover:underline decoration-accent underline-offset-4 transition-all">Substack</a>
                         <a id="link-github" href="#"
@@ -201,15 +203,6 @@
             <section class="space-y-4 max-w-5xl">
                 <div class="section-label text-accent">Currently pondering</div>
                 <div id="render-focus" class="space-y-10"></div>
-            </section>
-
-            <!-- Projects Section -->
-            <section class="space-y-4 max-w-5xl">
-                <div class="section-label text-accent">Projects</div>
-                <div id="render-projects" class="flex flex-col gap-6"></div>
-                <a id="link-more-projects" href="#" target="_blank" rel="noopener"
-                    class="inline-block pt-2 text-xs font-bold uppercase tracking-[0.2em] text-accent hover:text-black dark:hover:text-white hover:underline decoration-accent underline-offset-4 transition-all">More
-                    on GitHub &rarr;</a>
             </section>
 
             <!-- Path (Experience & Education) Section -->
@@ -268,21 +261,6 @@
             focusContainer.appendChild(block);
         });
 
-        // Render Projects
-        const projectList = document.getElementById('render-projects');
-        DATA.projects.filter(point => point.featured).forEach(point => {
-            const card = document.createElement('a');
-            card.href = point.url;
-            card.target = '_blank';
-            card.rel = 'noopener';
-            card.className = "block p-6 border border-slate-200 dark:border-slate-700 border-t-2 rounded-lg space-y-2 transition hover:-translate-y-1 hover:shadow-lg";
-            card.style.borderTopColor = 'var(--accent)';
-            card.innerHTML = `
-                <h3 class="font-bold text-xl md:text-2xl text-slate-900 dark:text-white">${point.title}</h3>
-                <p class="serif-body text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed font-normal">${point.desc}</p>
-            `;
-            projectList.appendChild(card);
-        });
         document.getElementById('render-photo').src = DATA.photo;
 
         // Render lists (Experience & Education)
@@ -324,7 +302,6 @@
 
         // Set social links
         document.getElementById('link-github').href = DATA.socials.github;
-        document.getElementById('link-more-projects').href = DATA.socials.githubProfile;
         document.getElementById('link-linkedin').href = DATA.socials.LinkedIn;
         document.getElementById('link-scholar').href = DATA.socials.scholar;
         document.getElementById('link-substack').href = DATA.socials.substack;
